@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import "./layout.css"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -55,22 +56,18 @@ class Layout extends React.Component {
     }
     return (
       <Wrapper>
-        <div
-          style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          }}
-        >
+        <div className="app">
           <header>{header}</header>
-          <main>{children}</main>
+          <main className="container">{children}</main>
+          <Footer>
+            © {new Date().getFullYear()}, Built in Austin{" "}
+            <span role="img" aria-label="star emoji">
+              🌟
+            </span>
+            {` `}
+            using <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </Footer>
         </div>
-        <Footer>
-          © {new Date().getFullYear()}, Built in Austin <span role="img" aria-label="star emoji">🌟</span>
-          {` `}
-          using <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </Footer>
       </Wrapper>
     )
   }
