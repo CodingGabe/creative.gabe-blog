@@ -4,7 +4,7 @@ module.exports = {
     title: `creative.gabe Journal`,
     author: `Gabe Amaya`,
     description: `My new official Journal with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://creative.gabe.netlify.com/`,
+    siteUrl: `https://creativegabe.netlify.com/`,
     social: {
       twitter: `king_gabes`,
     },
