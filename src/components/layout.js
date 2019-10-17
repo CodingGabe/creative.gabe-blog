@@ -20,14 +20,7 @@ class Layout extends React.Component {
             margin: 0,
           }}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
-          >
+          <Link to={location.pathname === blogPath ? `/blog/` : `/`}>
             {title}
           </Link>
         </h1>
@@ -39,16 +32,7 @@ class Layout extends React.Component {
             marginTop: 0,
           }}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/blog/`}
-          >
-            {title}
-          </Link>
+          <Link to={`/blog/`}>{title}</Link>
         </h3>
       )
     }

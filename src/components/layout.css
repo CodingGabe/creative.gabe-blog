@@ -5,6 +5,7 @@ header h1 {
 
 .app {
     display: grid;
+    height: calc(100vh - 60px);
     grid-template-areas:
         "header"
         "main"
