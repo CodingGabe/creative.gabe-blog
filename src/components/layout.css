@@ -4,8 +4,38 @@ header h1 {
 }
 
 .app {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: 48px auto 96px;
     max-width: 1216px;
     margin: 0 auto;
+}
+header, main {
+    display: flex;
+    align-items: flex-start;
+}
+header {
+    grid-area: header;
+    justify-content: space-between;
+}
+main {
+    grid-area: main;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 42rem;
+    margin-top: 1rem;
+    min-width: 0;
+}
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    font-size: .75rem;
 }
 .app h1,
 .app h2,

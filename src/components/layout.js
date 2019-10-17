@@ -17,8 +17,7 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            margin: 0,
           }}
         >
           <Link
@@ -37,7 +36,6 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -58,14 +56,16 @@ class Layout extends React.Component {
       <Wrapper>
         <div className="app">
           <header>{header}</header>
-          <main className="container">{children}</main>
+          <main>{children}</main>
           <Footer>
+            <p>
             © {new Date().getFullYear()}, Built in Austin{" "}
             <span role="img" aria-label="star emoji">
               🌟
             </span>
             {` `}
             using <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </p>
           </Footer>
         </div>
       </Wrapper>
@@ -78,8 +78,7 @@ const Wrapper = styled.div`
 `
 
 const Footer = styled.footer`
-  text-align: center;
-  margin: 24px;
+  text-align: inherit;
 `
 
 export default Layout
