@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `creative.gabe Journal`,
+    title: `My Journal`,
     author: `Gabe Amaya`,
     description: `My new official Journal with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://creativegabe.netlify.com/`,
