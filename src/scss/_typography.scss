@@ -1,3 +1,11 @@
+@import "tokens";
+
+body {
+    font-family: $font-family--mono;
+    font-size: $baseline;
+    min-height: 100vh;
+}
+
 a {
   color: #fff;
   position: relative;

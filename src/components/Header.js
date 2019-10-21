@@ -62,7 +62,7 @@ const Header = () => (
         journal
       </Link>
       <Link
-        to="/blog"
+        to="/blog/"
         className="nav__link"
         activeClassName="nav__link--active"
       >
