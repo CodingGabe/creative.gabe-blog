@@ -5,6 +5,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   a {
+    position: relative;
+    color: $nav-link__color__text;
+    background: none;
+    text-shadow: none;
     margin-right: 12px;
     margin-left: 12px;
   }
