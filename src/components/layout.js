@@ -2,9 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import Header from "./Header"
-import "./layout.css"
 
-import { rhythm, scale } from "../utils/typography"
+import "../scss/index.scss"
+
+// import { rhythm, scale } from "../utils/typography"
 
 const Wrapper = ({ children }) => (
   <div className="app">

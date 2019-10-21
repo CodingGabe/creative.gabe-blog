@@ -61,6 +61,20 @@ const Header = () => (
       >
         journal
       </Link>
+      <Link
+        to="/blog"
+        className="nav__link"
+        activeClassName="nav__link--active"
+      >
+        work
+      </Link>
+      {/* <Link
+        to="/blog"
+        className="nav__link"
+        activeClassName="nav__link--active"
+      >
+        resume
+      </Link> */}
     </nav>
   </header>
 )
