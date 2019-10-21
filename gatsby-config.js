@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `My Journal`,
     author: `Gabe Amaya`,
-    description: `My new official Journal with styled components, dark mode, and Netlify CMS.`,
+    description: `Gabe shares my thoughts and creativity about Front-End + Design, and current projects.`,
     siteUrl: `https://creativegabe.netlify.com/`,
     social: {
       twitter: `king_gabes`,
@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -39,6 +40,8 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              linkImagesToOriginal: false,
+              sizeByPixelDensity: true,
             },
           },
           {
@@ -73,6 +76,7 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
