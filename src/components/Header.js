@@ -62,7 +62,7 @@ const Header = () => (
         journal
       </Link>
       <Link
-        to="https://www.gabeamaya.com/work/"
+        to="/resume"
         className="nav__link"
         activeClassName="nav__link"
         target="_blank"
