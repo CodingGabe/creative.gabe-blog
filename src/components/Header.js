@@ -55,16 +55,17 @@ const Header = () => (
     </Link>
     <nav>
       <Link
-        to="/blog"
+        to="/blog/"
         className="nav__link"
         activeClassName="nav__link--active"
       >
         journal
       </Link>
       <Link
-        to="/blog/"
+        to="https://www.gabeamaya.com/work/"
         className="nav__link"
-        activeClassName="nav__link--active"
+        activeClassName="nav__link"
+        target="_blank"
       >
         work
       </Link>

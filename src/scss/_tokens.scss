@@ -9,6 +9,7 @@ $color--vista-blue: #ae95ed;
 $color--turquoise: #46d1d1;
 
 $color--white: white;
+$color--white_contrast: darken($color--white, 27%);
 $color--lavendar: #eae0ff;
 
 // -----------
@@ -50,3 +51,5 @@ $divider__color__border: $color--deep-violet;
 $heading__color__border: $color--ultramarine;
 $heading__color__background: $color--white;
 $heading__color__text: $color--deep-violet;
+
+$light: 300;

@@ -4,6 +4,7 @@ body {
     font-family: $font-family--mono;
     font-size: $baseline;
     min-height: 100vh;
+    color: $color--white;
 }
 
 a {
@@ -14,43 +15,9 @@ a {
   text-decoration: none;
   background: none;
   text-shadow: none;
+}
 
-  &:not(.anchor):not(.footer__link) {
-    border-bottom: 3px solid $link__color__text;
-  }
-
-  @media (min-width: 640px) {
-    display: inline-block;
-
-    &:not(.anchor):not(.footer__link) {
-      border-bottom: none;
-    }
-
-    &:after {
-      content: "";
-      position: absolute;
-      display: block;
-      background-color: $link__color__text;
-      width: 100%;
-      height: $baseline / 6;
-      bottom: 0;
-      z-index: -1;
-      transition: all ease-in 200ms;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-      outline: none;
-      color: $color--deep-violet;
-
-      &:after {
-        height: 100%;
-        width: 100%;
-        padding: 0 $baseline / 4;
-        -webkit-transform: translateX(-$baseline / 30);
-        transform: translateX(-$baseline / 30);
-      }
-    }
-  }
+.sub-heading {
+    color: $color--white_contrast;
+    font-weight: $light;
 }

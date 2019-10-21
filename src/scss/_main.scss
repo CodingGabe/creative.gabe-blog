@@ -27,6 +27,11 @@ main {
     max-width: 42rem;
     margin-top: 1rem;
     min-width: 0;
+    h1,h2,h3 {
+        color: $color--white;
+        margin-top: 1rem;
+        font-family: $font-family--mono;
+    }
 }
 
 footer {

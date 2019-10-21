@@ -21,7 +21,7 @@ class IndexPage extends React.Component {
            🔥
           </span>
         </h1>
-        <h3>
+        <h3 className="sub-heading">
           Austin, Texas
           <span role="img" aria-label="pin emoji">
           📍
@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
           The name is <strong>Gabe</strong>, and I'm a <a href="https://dev.to/emmawedekind/ux-engineering-3hem">UX Engineer</a> (Design &amp; Front-End) but it's still new so I'm a Front-End Web Dev.
         </p>
         <p>I love to creative and code things to build compelling digital experiences <span role="img" aria-label="diamond emoji">💎</span></p>
-        <Link to="/blog/">
+        <Link to="/blog/" ClassName="btn">
           <Button marginTop="35px">My Journal</Button>
         </Link>
       </Layout>
