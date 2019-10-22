@@ -67,7 +67,7 @@ const Header = () => (
         activeClassName="nav__link"
         target="_blank"
       >
-        work
+        resume
       </Link>
       {/* <Link
         to="/blog"
