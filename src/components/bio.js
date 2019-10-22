@@ -37,7 +37,10 @@ function Bio() {
               Written by <strong>{author}</strong> by way of South Austin. 5-1-2 🤙🏽.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                Send me a Tweet 🐥
+                Send me a Tweet 
+                <span role="img" aria-label="star emoji">
+                🐥
+                </span>
               </a>
             </p>
           </Container>

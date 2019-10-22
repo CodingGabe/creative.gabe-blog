@@ -26,7 +26,7 @@ export default () => {
             fixed={data.resume.childImageSharp.fixed}
             alt="Resume 2019"
         />
-        <a href="https://drive.google.com/file/d/1M_44Nc8bL4zBnnIdS9I8LZuWX4RXStY_/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1M_44Nc8bL4zBnnIdS9I8LZuWX4RXStY_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <Button marginTop="35px">Download</Button>
         </a>
       </div>
