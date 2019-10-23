@@ -4,7 +4,7 @@ module.exports = {
     title: `My Journal`,
     author: `Gabe Amaya`,
     description: `Gabe shares my thoughts and creativity about Front-End + Design, and current projects.`,
-    siteUrl: `https://creativegabe.netlify.com/`,
+    siteUrl: `https://www.gabeamaya.com`,
     social: {
       twitter: `king_gabes`,
     },
