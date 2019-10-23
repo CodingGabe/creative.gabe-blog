@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
         <p>
           My name is <strong>Gabe</strong>, and I'm a <a href="https://dev.to/emmawedekind/ux-engineering-3hem">UX Engineer</a> (Design &amp; Front-End) it's still a new title so I still go by Front-End Web Dev.
         </p>
-        <p>I love to creative and code things to build compelling digital experiences <span role="img" aria-label="diamond emoji">💎</span></p>
+        <p>I love to be creative and code things to build compelling digital experiences <span role="img" aria-label="diamond emoji">💎</span></p>
         <Link to="/blog/" ClassName="btn">
           <Button marginTop="35px">My Journal</Button>
         </Link>
