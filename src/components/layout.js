@@ -7,21 +7,23 @@ import "../scss/index.scss"
 
 // import { rhythm, scale } from "../utils/typography"
 
-const Wrapper = ({ children }) => (
-  <div className="app">
-    <Header>{Header}</Header>
-    <main>{children}</main>
-    <Footer>
-      <p>
-        © {new Date().getFullYear()}, Built in Austin{" "}
-        <span role="img" aria-label="star emoji">
-          🌟
-        </span>
-        {` `}
-        using <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </p>
-    </Footer>
-  </div>
+const Layout = ({ children }) => (
+  <Wrapper>
+    <div className="app">
+      <Header>{Header}</Header>
+      <main>{children}</main>
+      <Footer>
+        <p>
+          © {new Date().getFullYear()}, Built in Austin{" "}
+          <span role="img" aria-label="star emoji">
+            🌟
+          </span>
+          {` `}
+          using <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </p>
+      </Footer>
+    </div>
+  </Wrapper>
 )
 
 // class Layout extends React.Component {
@@ -76,12 +78,12 @@ const Wrapper = ({ children }) => (
 //   }
 // }
 
-// const Wrapper = styled.div`
-//   min-height: 100vh;
-// `
+const Wrapper = styled.div`
+  min-height: 100vh;
+`
 
 const Footer = styled.footer`
   text-align: inherit;
 `
 
-export default Wrapper
+export default Layout

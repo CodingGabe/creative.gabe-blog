@@ -1,5 +1,5 @@
 import React from "react"
-import Wrapper from "../components/layout"
+import Layout from "../components/layout"
 import Button from "../components/button"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
@@ -19,7 +19,7 @@ export default () => {
     }
   `)
   return (
-    <Wrapper>
+    <Layout>
       <div className="u-flex_row">
         <h1 style={{ marginBottom: "20px" }}>My Resume</h1>
         <Image
@@ -30,6 +30,6 @@ export default () => {
           <Button marginTop="35px">Download</Button>
         </a>
       </div>
-    </Wrapper>
+    </Layout>
   )
 }
