@@ -43,12 +43,6 @@ const Header = () => (
         property="twitter:description"
         content="I love to creative and code things to build compelling digital experiences."
       />
-      <link
-        href="favicon.png"
-        rel="shortcut icon"
-        type="image/png"
-        data-icon-attribution="Icon from Twemoji (https://twemoji.twitter.com/) and licensed CC BY 4.0"
-      />
     </Helmet>
     <Link to="/" className="nav__link">
       home
