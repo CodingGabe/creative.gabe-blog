@@ -54,6 +54,15 @@ footer {
     align-items: flex-start;
     margin-top: 2rem;
     font-size: .75rem;
+    @media (max-width: 480px) {
+        flex-direction: column-reverse;
+        section {
+            text-align: center;
+        }
+        a {
+            margin-left: $baseline * 1.15;
+        }
+    }
 }
 footer a {
     margin-left: $baseline/1.5;
@@ -72,6 +81,9 @@ footer a {
     grid-template-rows: 48px auto 96px;
     max-width: 1216px;
     margin: 0 auto;
+    @media (max-width: 480px) {
+        height: 100%;
+    }
 }
 
 @media (min-width: 480px) {
