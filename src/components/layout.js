@@ -2,6 +2,7 @@ import React from "react"
 // import { Link } from "gatsby"
 import styled from "styled-components"
 import Header from "./Header"
+import Footer from "./Footer"
 
 import "../scss/index.scss"
 
@@ -10,18 +11,9 @@ import "../scss/index.scss"
 const Layout = ({ children }) => (
   <Wrapper>
     <div className="app">
-      <Header>{Header}</Header>
+      <Header />
       <main>{children}</main>
-      <Footer>
-        <p>
-          © {new Date().getFullYear()}, Built in Austin{" "}
-          <span role="img" aria-label="star emoji">
-            🌟
-          </span>
-          {` `}
-          using <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </p>
-      </Footer>
+      <Footer />
     </div>
   </Wrapper>
 )
@@ -80,10 +72,6 @@ const Layout = ({ children }) => (
 
 const Wrapper = styled.div`
   min-height: 100vh;
-`
-
-const Footer = styled.footer`
-  text-align: inherit;
 `
 
 export default Layout

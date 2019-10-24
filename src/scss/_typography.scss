@@ -7,13 +7,16 @@ body {
 }
 
 a {
-  color: #fff;
+  color: $color--white;
   position: relative;
   font-weight: 600;
   transition: color ease-in 200ms;
   text-decoration: none;
   background: none;
   text-shadow: none;
+  &:hover {
+      color: $link__color__text__hover;
+  }
 }
 
 .sub-heading {

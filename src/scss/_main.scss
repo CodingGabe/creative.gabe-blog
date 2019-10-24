@@ -55,6 +55,12 @@ footer {
     margin-top: 2rem;
     font-size: .75rem;
 }
+footer a {
+    margin-left: $baseline/1.5;
+    &:first-child {
+        margin-left: 0;
+    }
+}
 
 .app {
     display: grid;
