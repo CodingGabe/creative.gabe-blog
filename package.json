@@ -2,8 +2,8 @@
   "name": "gatsby-personal-starter-blog",
   "private": true,
   "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
-  "version": "0.1.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "version": "1.0.5",
+  "author": "Gabe Amaya",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

@@ -1,6 +1,5 @@
 import React from "react"
 // import { Link } from "gatsby"
-import styled from "styled-components"
 import Header from "./Header"
 import Footer from "./Footer"
 
@@ -9,13 +8,11 @@ import "../scss/index.scss"
 // import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ children }) => (
-  <Wrapper>
     <div className="app">
       <Header />
       <main>{children}</main>
       <Footer />
     </div>
-  </Wrapper>
 )
 
 // class Layout extends React.Component {
@@ -69,9 +66,5 @@ const Layout = ({ children }) => (
 //     )
 //   }
 // }
-
-const Wrapper = styled.div`
-  min-height: 100vh;
-`
 
 export default Layout
