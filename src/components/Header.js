@@ -63,6 +63,13 @@ const Header = () => (
       >
         resume
       </Link>
+      <Link
+        to="/projects/"
+        className="nav__link"
+        activeClassName="nav__link"
+      >
+        projects
+      </Link>
       {/* <Link
         to="/blog"
         className="nav__link"

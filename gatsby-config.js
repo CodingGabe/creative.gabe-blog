@@ -1,6 +1,5 @@
 module.exports = {
   siteMetadata: {
-    // edit below
     title: `My Journal`,
     author: `Gabe Amaya`,
     description: `Gabe shares my thoughts and creativity about Front-End + Design, and current projects.`,
@@ -32,6 +31,14 @@ module.exports = {
         name: `assets`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/`,
+        name: `project`,
+      },
+    },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

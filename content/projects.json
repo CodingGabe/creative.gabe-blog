@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Zarya Creative",
+      "slug": "project-1",
+      "url": "https://sombruh.webflow.io/",
+      "image": "./assets/gatsby-icon.png",
+      "description": "I built this site to show off my sweet skills!",
+      "tags": ["React", "Gatsby", "JavaScript"]
+    },
+    {
+      "title": "Another Project",
+      "slug": "project-2",
+      "url": "https://example.org/",
+      "image": "./images/project2.jpg",
+      "description": "This one is also good.",
+      "tags": ["GraphQL"]
+    }
+  ]
