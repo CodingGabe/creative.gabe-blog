@@ -13,14 +13,38 @@
       "url": "https://wildbasinfitx.com/",
       "image": "./assets/wildbasin.jpg",
       "description": "Built and designed by me in WordPress with a custom theme I created for client",
-      "tags": ["GraphQL"]
+      "tags": ["WordPress"]
     },
     {
       "title": "Ash & Brock",
       "slug": "ashnbrock",
       "url": "https://codinggabe.github.io/brocoli/",
       "image": "./assets/angle.png",
-      "description": "Built using pure css top showcase advanced techniques and animations with css only",
-      "tags": ["GraphQL"]
+      "description": "Built using pure css to showcase advanced techniques and animations with css only",
+      "tags": ["CSS"]
+    },
+    {
+      "title": "Eazy Add/Remove App",
+      "slug": "eazy",
+      "url": "https://codinggabe.github.io/eazy-react-project/",
+      "image": "./assets/eazy.png",
+      "description": "Built using the basics of React to learn state management without hooks",
+      "tags": ["React"]
+    },
+    {
+      "title": "Membersy redesign",
+      "slug": "membersy",
+      "url": "https://membersy.netlify.com/",
+      "image": "./assets/membersy.png",
+      "description": "Redesign of my current company's main site using React and GraphQL",
+      "tags": ["React, GraphQL"]
+    },
+    {
+      "title": "CSS Variables",
+      "slug": "cssvariables",
+      "url": "https://codinggabe.github.io/css-variables/",
+      "image": "./assets/variables.png",
+      "description": "Control an image using the power of css variables, built with vanilla JS",
+      "tags": ["JavaScript, CSS"]
     }
   ]

@@ -15,6 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
+        <div className="container">
         <h1>
           Front-End Web Devloper{" "}
           <span role="img" aria-label="fire emoji">
@@ -34,6 +35,7 @@ class IndexPage extends React.Component {
         <Link to="/blog/" ClassName="btn">
           <Button marginTop="35px">My Journal</Button>
         </Link>
+        </div>
       </Layout>
     )
   }

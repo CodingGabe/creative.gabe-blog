@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 
-const ProjectPreview = ({ slug, imageData, title, description }) => (
+const ProjectPreview = ({ slug, imageData, title, description, url }) => (
     <div className="project-preview">
-        <Link to={`/${slug}`}>
+        <a href={url} target="_blank" aria-label={title}>
             <Image fluid={imageData} alt={title} />
-        </Link>
+        </a>
         <div className="project_desc">
         <h2>
-            <Link to={`/${slug}`}>{title}</Link>
+            <a href={url} target="_blank" aria-label={title}>{title}</a>
         </h2>
         <p>{description}</p>
         <p>
-            <Link to={`/${slug}`}>View Project</Link>
+            <a href={url} target="_blank" aria-label={title}>View Project</a>
         </p>
         </div>
     </div>

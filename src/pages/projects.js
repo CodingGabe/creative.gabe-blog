@@ -38,6 +38,7 @@ export default () => {
             const description = project.description;
             const slug = project.slug;
             const imageData = project.image.childImageSharp.fluid;
+            const url = project.url;
 
             return (
                 <ProjectPreview
@@ -45,6 +46,7 @@ export default () => {
                     description={description}
                     slug={slug}
                     imageData={imageData}
+                    url={url}
                 />
             )
         })}
