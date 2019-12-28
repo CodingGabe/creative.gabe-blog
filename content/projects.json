@@ -11,7 +11,7 @@
       "title": "Another Project",
       "slug": "project-2",
       "url": "https://example.org/",
-      "image": "./images/project2.jpg",
+      "image": "./assets/gatsby-icon.png",
       "description": "This one is also good.",
       "tags": ["GraphQL"]
     }

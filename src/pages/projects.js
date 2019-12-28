@@ -14,6 +14,7 @@ export default () => {
               node {
                 title
                 url
+                description
                 image {
                   childImageSharp {
                     fluid {
