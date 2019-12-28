@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Button from "../components/button"
+import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import ProjectPreview from "../components/ProjectPreview"
 
@@ -32,6 +33,7 @@ export default () => {
 
   return (
     <Layout>
+     <SEO title="Projects" />
       <div className="project_preview--wrapper">
         {projects.map(({ node: project }) => {
             const title = project.title;
