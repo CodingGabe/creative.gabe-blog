@@ -7,6 +7,7 @@ const ProjectPreview = ({ slug, imageData, title, description }) => (
         <Link to={`/${slug}`}>
             <Image fluid={imageData} alt={title} />
         </Link>
+        <div className="project_desc">
         <h2>
             <Link to={`/${slug}`}>{title}</Link>
         </h2>
@@ -14,6 +15,7 @@ const ProjectPreview = ({ slug, imageData, title, description }) => (
         <p>
             <Link to={`/${slug}`}>View Project</Link>
         </p>
+        </div>
     </div>
 );
 

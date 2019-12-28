@@ -1,18 +1,26 @@
 [
     {
       "title": "Zarya Creative",
-      "slug": "project-1",
+      "slug": "zarya",
       "url": "https://sombruh.webflow.io/",
-      "image": "./assets/gatsby-icon.png",
-      "description": "I built this site to show off my sweet skills!",
-      "tags": ["React", "Gatsby", "JavaScript"]
+      "image": "./assets/zarya.png",
+      "description": "Built and designed by me using modern design practices in Webflow",
+      "tags": ["React", "Gatsby", "JavaScript", "Webflow", "CSS"]
     },
     {
-      "title": "Another Project",
-      "slug": "project-2",
-      "url": "https://example.org/",
-      "image": "./assets/gatsby-icon.png",
-      "description": "This one is also good.",
+      "title": "Wild Basin Fitness",
+      "slug": "wildbasin",
+      "url": "https://wildbasinfitx.com/",
+      "image": "./assets/wildbasin.jpg",
+      "description": "Built and designed by me in WordPress with a custom theme I created for client",
+      "tags": ["GraphQL"]
+    },
+    {
+      "title": "Ash & Brock",
+      "slug": "ashnbrock",
+      "url": "https://codinggabe.github.io/brocoli/",
+      "image": "./assets/angle.png",
+      "description": "Built using pure css top showcase advanced techniques and animations with css only",
       "tags": ["GraphQL"]
     }
   ]

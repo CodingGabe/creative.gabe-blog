@@ -32,7 +32,7 @@ export default () => {
 
   return (
     <Layout>
-      <div className="u-flex_row">
+      <div className="project_preview--wrapper">
         {projects.map(({ node: project }) => {
             const title = project.title;
             const description = project.description;
