@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
         />
         <div className="container">
         <h1>
-          Front-End Web Devloper{" "}
+          Front-End Web Developer{" "}
           <span role="img" aria-label="fire emoji">
            🔥
           </span>
