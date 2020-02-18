@@ -33,7 +33,7 @@ class IndexPage extends React.Component {
         </p>
         <p>I love to be creative and code things to build compelling digital experiences <span role="img" aria-label="diamond emoji">💎</span></p>
         <Link to="/blog/" ClassName="btn">
-          <Button marginTop="35px">My Journal</Button>
+            <Button marginTop="35px"> My Journal</Button>
         </Link>
         </div>
       </Layout>

@@ -7,7 +7,7 @@ const Button = props => (
 
 const ButtonWrapper = styled.button`
   display: block;
-  border: none !important;
+  border: none;
   text-align: center;
   box-sizing: border-box;
   text-decoration: none;
@@ -16,7 +16,7 @@ const ButtonWrapper = styled.button`
   text-transform: uppercase;
   letter-spacing: 2px;
 
-  background: ${props => props.props.background || "#DE369D"};
+  background: ${props => props.props.background || "#F20505"};
   color: ${props => props.props.color || "rgb(255, 255, 255)"};
   font-size: ${props => props.props.fontSize || "15px"};
   font-weight: ${props => props.props.fontWeight || "600"};
