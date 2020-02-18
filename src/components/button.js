@@ -16,7 +16,7 @@ const ButtonWrapper = styled.button`
   text-transform: uppercase;
   letter-spacing: 2px;
 
-  background: ${props => props.props.background || "#37E2DF"};
+  background: ${props => props.props.background || "#DE369D"};
   color: ${props => props.props.color || "rgb(255, 255, 255)"};
   font-size: ${props => props.props.fontSize || "15px"};
   font-weight: ${props => props.props.fontWeight || "600"};
