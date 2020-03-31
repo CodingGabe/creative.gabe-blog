@@ -15,8 +15,9 @@ const ButtonWrapper = styled.button`
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 2px;
+  box-shadow: 0 5px 15px rgba(246, 1, 157, .6);
 
-  background: ${props => props.props.background || "#F20505"};
+  background: ${props => props.props.background || "#F6019D"};
   color: ${props => props.props.color || "rgb(255, 255, 255)"};
   font-size: ${props => props.props.fontSize || "15px"};
   font-weight: ${props => props.props.fontWeight || "600"};

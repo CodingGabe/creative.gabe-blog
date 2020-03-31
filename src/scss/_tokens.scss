@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600&display=swap');
 
 $color--primary-dark: #101010;
-$color--bg: #022840;
-$color--primary-diamond: #37E2DF;
+$color--bg: #141738;
+$color--primary-diamond: #2DE2E6;
 
 $color--deep-violet: #22006a;
 
@@ -42,7 +42,7 @@ $nav-link__color__text: $color--white;
 $nav-link__color__text--hover: $color--white;
 $nav-link__color__text--active: $color--deep-violet;
 
-$link__color__text: $color--mint;
+$link__color__text: $color--primary-diamond;
 $link__color__text__hover: darken($color--white, 20%);
 
 $body__color__background--gradient-01: $color--ultramarine;

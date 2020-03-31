@@ -31,6 +31,7 @@ nav {
         position: absolute;
         display: block;
         background-color: $link__color__text;
+        box-shadow: 0 5px 15px rgba(45, 226, 230, .6);
         width: 100%;
         height: $baseline / 6;
         bottom: 0;
@@ -43,6 +44,7 @@ nav {
       &:active {
         outline: none;
         color: $color--deep-violet;
+        box-shadow: 0 5px 15px rgba(45, 226, 230, .6);
   
         &:after {
           height: 100%;

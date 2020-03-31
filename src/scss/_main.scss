@@ -14,7 +14,9 @@
   }
 
 body {
-    background: $color--primary-dark;
+    background: url('../../content/assets/outrun-bg.png') center center no-repeat;
+    background-size: cover;
+    background-color: $color--bg;
     padding: 1rem 1rem 0;
     color: #fff;
 }
