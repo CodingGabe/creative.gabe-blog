@@ -16,8 +16,8 @@ class IndexPage extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <div className="container">
-        <h1>
-          Front-End Web Developer{" "}
+        <h1 className="outrun-title">
+          Front-End Web Developer {" "}
           <span role="img" aria-label="fire emoji">
            🔥
           </span>

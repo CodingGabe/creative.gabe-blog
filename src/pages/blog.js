@@ -17,7 +17,10 @@ class Blog extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Journal" />
         <Bio />
-        <div style={{ margin: "20px 0 40px" }}>
+        <h2 className="outrun-title">
+          Journal
+        </h2>
+        <div style={{ margin: "40px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (

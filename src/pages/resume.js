@@ -21,7 +21,9 @@ export default () => {
   return (
     <Layout>
       <div className="u-flex_row">
-        <h1 style={{ marginBottom: "20px" }}>My Resume</h1>
+        <h2 className="outrun-title" style={{ marginBottom: "40px" }}>
+          My Resume
+        </h2>
         <Image
             fixed={data.resume.childImageSharp.fixed}
             alt="Resume 2019"

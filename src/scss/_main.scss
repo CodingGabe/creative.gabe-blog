@@ -46,6 +46,9 @@ main {
         margin-top: 1rem;
         font-family: $font-family--mono;
     }
+    @media (max-width: 480px) {
+        padding: 2rem 0;
+    }
 }
 
 footer {

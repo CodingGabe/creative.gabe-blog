@@ -5,6 +5,9 @@ body {
     font-size: $baseline;
     color: $color--white;
 }
+p {
+    line-height: 1.75;;
+}
 
 a {
   color: $color--white;
@@ -22,4 +25,15 @@ a {
 .sub-heading {
     color: $color--white_contrast;
     font-weight: $light;
+}
+
+@font-face {
+    font-family: outRun;
+    src: url(../../content/assets/outrun.otf);
+}
+
+.outrun-title {
+    font-family: outRun;
+    color: $color--primary-diamond;
+    text-shadow: 0 5px 15px rgba(45, 226, 230, .6);
 }

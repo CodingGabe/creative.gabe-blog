@@ -34,6 +34,9 @@ export default () => {
   return (
     <Layout>
      <SEO title="Projects" />
+     <h2 className="outrun-title">
+          Projects
+      </h2>
       <div className="project_preview--wrapper">
         {projects.map(({ node: project }) => {
             const title = project.title;
@@ -52,12 +55,12 @@ export default () => {
                 />
             )
         })}
-        <a href="https://github.com/CodingGabe?tab=repositories" target="_blank" aria-label="all projects" rel="noopener noreferrer">
+      </div>
+      <a href="https://github.com/CodingGabe?tab=repositories" target="_blank" aria-label="all projects" rel="noopener noreferrer">
           <Button>
             View All Projects
           </Button>
         </a>
-      </div>
     </Layout>
   )
 }
