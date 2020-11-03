@@ -8,12 +8,12 @@
       "tags": ["React", "Gatsby", "JavaScript", "Webflow", "CSS"]
     },
     {
-      "title": "Wild Basin Fitness",
-      "slug": "wildbasin",
-      "url": "https://wildbasinfitx.com/",
-      "image": "./assets/wildbasin.jpg",
-      "description": "Built and designed by me in WordPress with a custom theme I created for client",
-      "tags": ["WordPress"]
+      "title": "Terry Blacks BBQ Redesign",
+      "slug": "terryb",
+      "url": "https://www.behance.net/gallery/107196095/Terry-Blacks-BBQ-Homepage-Redesign",
+      "image": "./assets/terryb.png",
+      "description": "Modern redesign for my favorite BBQ in Austin. Check out my super short and sweet case study",
+      "tags": ["Web Design, Adobe XD, UX"]
     },
     {
       "title": "Cobodo Services",
