@@ -32,12 +32,12 @@
       "tags": ["React"]
     },
     {
-      "title": "Membersy redesign",
-      "slug": "membersy",
-      "url": "https://membersy.netlify.com/",
-      "image": "./assets/membersy.png",
-      "description": "Redesign of my current company's main site using React and GraphQL",
-      "tags": ["React, GraphQL"]
+      "title": "CGPO Redesign Mockup",
+      "slug": "cgpo-checkout-redesign",
+      "url": "https://www.behance.net/gallery/109997049/CGPO-Redesign-Mockup?",
+      "image": "./assets/cgpo-mockup.png",
+      "description": "Callaway Golf Redesign Mockup for Checkout Page",
+      "tags": ["Figma, UX, Photoshop"]
     },
     {
       "title": "CSS Variables",
