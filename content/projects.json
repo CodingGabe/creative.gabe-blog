@@ -16,12 +16,12 @@
       "tags": ["Web Design, Adobe XD, UX"]
     },
     {
-      "title": "Cobodo Services",
+      "title": "Prosper With Posture",
       "slug": "cobodo",
-      "url": "https://www.cobodo.net/",
-      "image": "./assets/cobodo.jpg",
-      "description": "Custom Shopify site for client services in the CBD industry using Shopify's Liquid and React tools",
-      "tags": ["Shopify, React, CSS"]
+      "url": "https://www.prosperwithposture.com/",
+      "image": "./assets/pwp.jpg",
+      "description": "Designed and built by me using Webflow and itegrated Shopify Store",
+      "tags": ["Shopify, Webflow, CSS"]
     },
     {
       "title": "Eazy Add/Remove App",
