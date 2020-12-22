@@ -10,6 +10,8 @@ Another new year has gone. It was a crazy year for all and I am blessed that my 
 
 Every year I try and improve and continue to be the best Front-End Dev/Designer I can be. I consider myself to have a very good blend of Front-End Dev skills and Designer skills.  This year I have improved considerably on Photoshop, Illustrator, Adobe XD, and Figma skills. Applying my Design Thinking and Dev skills everyday I think I am in a great spot. With that being said, I am continuing to learn and grow and doing so I am redesigning my new portfolio. I plan to have this done by January 2021.  Here is a the mockup I have for it designed in XD!
 
+![512 Goons Gaming](assets/outrun-atx-bg.jpg "512 GOONS Gaming")
+
 ![Portfolio 2021](assets/port-blog.jpg "New Portfolio 2021")
 
 ## End Goal
